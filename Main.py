@@ -1,8 +1,9 @@
+#region import
 import Functions
-
-
 import _thread
 import time
+#end region
+
 #region thread 
 _thread.start_new_thread( Functions.acoustic_wait_signal, (1,) )
 #end
